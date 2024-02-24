@@ -44,6 +44,8 @@ Thus the message "Buzz Off!" encrypted with a shift of 2 would become "Dwbb Qhh!
 ## Getting started
 
 Accept the assignment by following the link from our [course website](https://northridge.dev/game-dev).
+Accepting the assignment will create for you a fork of this repository. Navigate
+to your fork and use the "Code" button to open a Codespace.
 
 You'll write the encryption function in `encrypt.py` and the decryption function
 in `decrypt.py`. Run your code from the command line:
@@ -76,16 +78,48 @@ To run all the tests, use the command:
 pytest
 ```
 
-## How your code will be evaluated
+## How to submit
+
+You'll have to get your the changes you make in your Codespace back to your
+GitHub repository. We'll use a tool called `git`. Here's how:
+
+1. In the terminal, `add` the files you've changed. The command, below, adds all
+   files that that have been modified.
+
+```shell
+git add .
+```
+
+2. `commit` the changes you've added (you can change the message). "Committing"
+   a set of changes is like taking a snapshot of all the changes you've made.
+   The message is a summary of the changes to help future-you and others.
+
+```shell
+git commit -m "Completed the Caesar Cipher problem set"
+```
+
+3. `push` your changes to your GitHub repository. "Pushing" your changes sends
+   the snapshot (the "commit") you created to GitHub, thus sharing it with
+   anyone who has access to your repository.
+
+```shell
+git push
+```
+
+4. Navigate to your GitHub repository and confirm that the commit has been added
+   to the commit history and your code reflects the changes you made.
+
+## How your code will be graded
 
 For both the `encrypt` and `decrypt` functions:
 
-- [ ] You've written tests for a wide variety of typical and edge cases.
-- [ ] Your tests pass.
+- You've written tests for a wide variety of typical and edge cases.
+- Your tests pass.
 
 ## Bonus
 
-There are different strategies or algorithms for solving this problem.
+You could use different strategies or algorithms to perform the encryption and
+decryption.
 
 - Implement a different algorithm, which may require using different data
   structures or control flow.
