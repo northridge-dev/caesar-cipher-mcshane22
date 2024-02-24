@@ -36,9 +36,10 @@ For example:
 - if you shift Y by 4, you would get C.
 
 For our purposes, we will only be shifting letters. All other characters (numbers,
-punctuation, spaces, etc.) should remain unchanged.
+punctuation, spaces, etc.) should remain unchanged. Capital letters should remain
+capitalized; lowercase letters should remain lowercase.
 
-Thus the message "BUZZ OFF" encrypted with a shift of 2 would become "DWBB QHH".
+Thus the message "Buzz Off!" encrypted with a shift of 2 would become "Dwbb Qhh!".
 
 ## Getting started
 

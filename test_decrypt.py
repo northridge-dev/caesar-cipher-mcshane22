@@ -2,7 +2,7 @@ from decrypt import decrypt
 
 
 def test_example():
-    assert decrypt("DWBB QHH!", 2) == "BUZZ OFF!"
+    assert decrypt("Dwbb Qhh!", 2) == "Buzz Off!"
 
 
 """
