@@ -62,6 +62,10 @@ python ./encrypt.py
 python ./decrypt.py
 ```
 
+## If you need a bit more help . . .
+
+Read the [HELP I'M STUCK](/HELP_IM_STUCK.md) guide.
+
 ## Craftsmanship
 
 For this problem set, focus on writing a comprehensive set of tests.
@@ -80,7 +84,7 @@ pytest
 
 ## How to submit
 
-You'll have to get your the changes you make in your Codespace back to your
+You'll have to get your code from your Codespace back to your
 GitHub repository. We'll use a tool called `git`. Here's how:
 
 1. In the terminal, `add` the files you've changed. The command, below, adds all
